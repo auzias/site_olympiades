@@ -1,0 +1,125 @@
+body {
+	position:relative;
+	background:#B3B3B3 url(images/fond.jpg) repeat-x fixed;
+	width:885px; 
+	margin:auto;
+	font-size:12px;
+	font-family:Arial;
+	text-align:justify;
+	color:#969696;
+	}
+
+div#corps {
+	float:right;
+	width:500px;
+	padding-right:125px;
+	margin-top: 150px;
+	}
+
+.mini {
+	position:absolute;
+	margin-top: 5px;
+	margin-left: 50px;
+	}
+
+div#corps caption {
+   margin: auto;
+   font-family: Arial, Times, "Times New Roman", serif;
+   font-weight: bold;
+   font-size: 1.2em;
+   color: #009900;
+   margin-bottom: 5px;
+	}
+
+div#corps table {
+   margin: auto;
+   border: 2px solid #678115;
+   border-collapse: collapse;
+
+	}
+
+div#corps th {
+   background-color: #8fc622;
+   color: white;
+   text-align: center;
+   font-size: 1.1em;
+   border: 1px solid #678115;
+   font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+}
+
+div#corps td {
+   border: 1px solid black;
+   font-family: "Comic Sans MS", "Trebuchet MS", Times, "Times New Roman", serif;
+   text-align: center;
+   border: 1px solid #678115;
+   padding: 5px;
+}
+
+div#menu {
+   font-weight: bold;
+	font-size:13px;
+	float:left;
+	padding-left:125px;
+	width:110px;
+	margin-top:150px;
+}
+
+div#menu ul {
+	list-style-image: url(images/puce.jpg);
+	margin:0;
+	padding:0;
+	} 
+
+div#menu li {
+	margin-left:15px;
+	margin-top:10px;
+	}
+
+h1#header {
+	width:885px;
+	height:178px;
+	background-image:url(images/header.png);
+	text-indent:-9000px;
+	margin-top:0px;
+	position: fixed;
+	top:0px;
+	}
+
+p#footer {
+	width:885px;
+	height:73px;
+	background-image:url(images/footer.jpg);
+	margin-bottom:0;
+	color:#939393;
+	text-align:center;
+	position: fixed;
+	bottom: 0px;
+	}
+
+#conteneur {
+	float:left;
+	background-image:url(images/corp.jpg);
+	background-repeat:repeat-y;
+	height:1000px;
+	}
+	
+/*mise en page */
+h2 {
+	font-size:13px;
+	border-bottom:1px dotted #969696;
+	}
+
+a {
+	color:#CBDF48;
+	border-bottom:1px dotted #CBDF48;
+	text-decoration:none;
+	}
+
+a:hover {
+	border-bottom:0px dotted #CBDF48;
+	color:#939393;
+	}
+
+a:visited {
+	color:#9fcc23;
+	}
